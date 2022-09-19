@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    background-color: aquamarine;
+    margin-top: 5%;
+}
+form{
+    padding: 40px;
+}
+label{
+    font-weight: bold;
+    font-size: large;
+    padding-bottom: 30px;
+}
+#name, #email, #number, #about{
+    width: 100%;
+    padding: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+button{
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}

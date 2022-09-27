@@ -4,26 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
     <title>Victalks</title>
 </head>
 <body>
     <header id="header">
-        <img src="" alt="" id="header-img">
-        <nav id="nav-bar">
-            <a href="" class="nav-link"></a>
-            <a href="" class="nav-link"></a>
-            <a href="" class="nav-link"></a>
-        </nav>
+        <div><img src="./images/logo2.jpg" alt="" id="header-img" width="50px"></div>
+        <div><nav id="nav-bar">
+            <a href="#video" class="nav-link">Video</a>
+            <a href="#form" class="nav-link">Form</a>
+            <a href="#product" class="nav-link">Product</a>
+        </nav></div>
         </header>
         <main>
-            <video src="" id="video"></video>
-            <form action="" id="form">
-                <input type="email" id="email" placeholder="Enter your mail">
+            <iframe id="video" height="315"
+             src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0" 
+             frameborder="0" allowfullscreen=""></iframe>
+            <form action="https://www.freecodecamp.com/email-submit" id="form">
+                <input type="email" id="email" placeholder="Enter your mail to get started">
                 <input type="submit" id="submit">
             </form>
+            <section id="product">
+                <div class="food"> <h2>Carrot Food</h2> 
+                    <div class="price"><img src="./images/baby carrot.png" width="30%" alt=""> 
+                    <div><p>$40</p> <button>Select</button></div>
+                </div>
+                </div>
+                <div class="food"> <h2>Beechnut Food</h2> 
+                    <div class="price"><img src="./images/BEECHNUT.webp" width="30%" alt=""> 
+                    <div><p>$37</p> <button>Select</button> </div>
+                </div>
+            </div>
+                <div class="food"> <h2>Banana Food</h2> 
+                    <div class="price"><img src="./images/baby banana.jpg" width="30%" alt="">
+                    <div><p>$50</p> <button>Select</button></div>
+                    </div>
+                 </div>
+            </section>
         </main>
         <footer>
-
+             <p>Designed by: Victoria</p>
+             <small>Freecode Camp</small>
         </footer>
 </body>
 </html>
